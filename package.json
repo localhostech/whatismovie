@@ -1,7 +1,7 @@
 {
   "name": "whatismovie",
   "version": "0.0.1",
-  "description": "",
+  "description": "What Is my Movie RUS",
   "main": "app.js",
   "dependencies": {
     "async": "^2.0.0-rc.3",
