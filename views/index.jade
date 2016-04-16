@@ -1,0 +1,14 @@
+extends layout.jade
+
+block title
+    title Какой это фильм?
+block content
+    h1 Опишите фильм
+    .main-form
+        form(action="#results" name="search-form")
+            input(type="text" placeholder="Например, мальчик едет в школу на поезде" name="text" autocomplete="off")
+            input(type="submit" value="Найти")
+        .cssload-loader.preloader
+          .cssload-inner.cssload-one
+          .cssload-inner.cssload-two
+          .cssload-inner.cssload-three

@@ -1,0 +1,21 @@
+doctype
+html
+    head
+        block title
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js")
+        script(src="js/functions.js")
+        link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css")
+        link(rel="stylesheet", href="css/normalize.css")
+        link(rel="stylesheet", href="css/style.css")
+    body
+        .container
+            .search-block.flex-center
+                block content
+            .footer
+                a(href="http://translate.yandex.ru/" target="_blank")
+                  p.yatranslate Переведено «Яндекс.Переводчиком»
+                a(href="http://valossa.com/" target="_blank")
+                  p.valossa
+                    img(src="http://valossa.com/wp-content/uploads/2015/09/valossa_lack_crop.png", alt="Valossa")
+        .results

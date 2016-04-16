@@ -1,0 +1,20 @@
+{
+  "name": "whatismovie",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "imdb": "^1.1.0",
+    "jade": "^1.11.0",
+    "omdb": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Grovas <grishajoi@gmail.com> (localhostech.github.io)",
+  "license": "ISC"
+}
